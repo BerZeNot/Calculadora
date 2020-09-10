@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #2e8fff73;
+}
+header{
+	background-color: #2E90FF;
+	height: 80px;
+	font: normal 45pt helvetica;
+	color: white;
+	text-align: center;
+	padding-top: 20px ;
+	box-shadow: 2px 2px 5px rgba(19, 19, 19, 0.432);
+}
+section{
+	background-color:white;
+	width: 480px;
+	min-height: 430px;
+	margin: auto;
+	padding-top: 40px;
+	padding-left: 30px;
+	text-align: left;
+
+}
+footer{
+	background-color: #2E90FF;
+	height: 30px;
+	font: italic 15pt helvetica;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	box-shadow: -2px -2px 5px rgba(19, 19, 19, 0.432);
+}
+
+
+#conteiner{
+	margin: auto;
+}
+
+
+div#dados p{
+	color: black;
+	font: normal 15pt helvetica;
+}
+input{
+	width: 290px;
+	height: 30px;
+	border-radius: 15px;
+	border-style: solid;
+	border-color: rgba(77, 77, 77, 0.568);
+	padding-left: 10px;
+}
+input#btAct{
+	width: 63px;
+	height: 40px;
+	padding-left: 0px;
+	border-radius: 25px;
+	border-color: #2E90FF;
+	border-style: groove;
+	background-color: #2E90FF;
+	box-shadow: 2px 2px 2px gray;
+	font: normal 15pt arial;
+	color: white;
+	text-align: center;
+}
+input#btClean{
+	width: 135px;
+	height: 40px;
+	padding-left: 0px;
+	border-radius: 25px;
+	border-color: #2E90FF;
+	border-style: groove;
+	background-color: #2E90FF;
+	box-shadow: 2px 2px 2px gray;
+	font: normal 15pt arial;
+	color: white;
+	text-align: center;
+}
+div#res{
+	font: normal 15pt arial;
+	color: gray;
+	background-color:white;
+	box-shadow: 2px 2px 5px gray;
+	border-radius: 20px;
+	width: 370px;
+	height: 25px;
+	text-align: left;
+	padding: 10px;
+}

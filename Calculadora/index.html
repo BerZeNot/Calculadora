@@ -1,0 +1,47 @@
+<DOCTYPE html5>
+	<!DOCTYPE html>
+	<html lang="pt-BR">
+	<head>
+		<title>My Web Calc</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+	</head>
+	<body>
+		<div id="conteiner">
+			<header>
+				<p>Calculadora</p>
+			</header>
+			<section>
+				<div id="dados">
+					<p>Número 1:
+						<input type="number" id="num1">
+					</p>
+					<br>
+					<p>Número 2:
+						<input type="number" id="num2">
+					</p>
+					<br>
+					<p>
+						<input type="button" name="btAction" value="+" id="btAct" onclick="soma()">
+						<input type="button" name="btAction" value="-" id="btAct" onclick="subtracao()">
+						<input type="button" name="btAction" value="x" id="btAct" onclick="multiplicacao()">
+						<input type="button" name="btAction" value="/" id="btAct" onclick="divisao()">
+					</p>
+					<br>
+					<p>
+						<input type="button" name="btClean" value="Limpar" id="btClean" onclick="clean()">
+					</p>
+				</div>
+				<br>
+				<div id="res">
+					<p>Resultado...</p>
+				</div>
+			</section>
+			<footer>
+				<p>©Copyright - Developed by Paulo Giovany</p>
+			</footer>
+			<script src="script.js"></script>
+		</div>
+	</body>
+	</html>
